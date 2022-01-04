@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <script src="index.js"></script>
+        <meta name="viewport" content="width=divice-width , intial-scale=1.0">
+            <link rel="stylesheet" href="index.css">
+
+    </head>
+    <body>
+        <div class="main">   
+            <div class="heading">
+                <h3>TIP CALCULATOR</h3>
+            </div>
+            <div id="content">
+                <label id="first">How much was your bill ?</label>
+                <section>$<input type="number" id="inpu1"/></section>
+                <label id="second">How much was dish and experince?</label>
+                <select name="exp" id="exp">
+                    <option id="ch1" value="Poor">0%-Poor</option>
+                    <option id="ch2" value="Good">10%-Good</option>
+                    <option id="ch3" value="Outstanding">30%-Outstanding</option>
+                </select>
+                <label id="third">How many people are sharing bill ?</label>
+                <section><input type="number" id="inpu2"/>people</section>
+                <button onclick="Add()" id="btn1">Calculate</button>
+                <div id="output">
+                    
+                </div>
+            </div>
+       </div>
+
+    </body>
+</html>
