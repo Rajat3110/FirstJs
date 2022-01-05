@@ -8,7 +8,7 @@ function Add() {
             window.alert("Please fill all fields");
         }
         else{
-                var text = "<section style='display:flex; flex-direction:column;align-items:center;'> <h4>TIP AMOUNT</h4>";
+                var text = "<section style='display:flex; flex-direction:column;align-items:center;'> <h4 style='padding:0%; margin:0%;'>TIP AMOUNT</h4>";
                 if(option1 == "Good")
                 {
                     var am = ((bill/100)*10)/totalp;
